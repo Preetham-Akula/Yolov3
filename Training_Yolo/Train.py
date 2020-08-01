@@ -1,6 +1,5 @@
 """
 MODIFIED FROM keras-yolo3 PACKAGE, https://github.com/qqwweee/keras-yolo3
-Retrain the YOLO model for your own dataset.
 """
 
 import os
@@ -9,8 +8,7 @@ import argparse
 import warnings
 
 def get_parent_dir(n=1):
-    """ returns the n-th parent dicrectory of the current
-    working directory """
+    
     current_path = os.path.dirname(os.path.abspath(__file__))
     for k in range(n):
         current_path = os.path.dirname(current_path)
