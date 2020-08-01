@@ -12,7 +12,7 @@ root_folder = os.path.dirname(os.path.abspath(__file__))
 download_folder = os.path.join(root_folder, "src", "keras_yolo3")
 
 if __name__ == "__main__":
-    # Delete all default flags
+    
     parser = argparse.ArgumentParser(argument_default=argparse.SUPPRESS)
     """
     Command line options
